@@ -10,3 +10,4 @@ if __name__ == "__main__":
     parser.add_argument("--phase", default="pre-chaos")
     args = parser.parse_args()
     verify(args.phase)
+

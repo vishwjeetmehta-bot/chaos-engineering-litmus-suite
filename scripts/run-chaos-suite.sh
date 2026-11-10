@@ -17,3 +17,4 @@ sleep 5
 echo "==> Step 3: Post-Chaos Steady-State Verification"
 python3 scripts/verify-steady-state.py --phase post-chaos
 echo "✅ Chaos resilience validation complete!"
+
